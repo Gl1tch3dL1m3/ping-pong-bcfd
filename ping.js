@@ -1,3 +1,4 @@
+$eval
 /* 
 
 PING COMMAND - READ THIS BEFORE INSERTING!
@@ -10,7 +11,6 @@ if you want a normal message, insert this script into it, but replace "$get(titl
 
 */
 
-$eval
 var title = ""
 var desc = ""
 
