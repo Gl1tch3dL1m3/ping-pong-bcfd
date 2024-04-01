@@ -1,7 +1,13 @@
 $eval
 /*
 
+SINGLEPLAYER COMMAND - READ THIS BEFORE INSERTING!
+Open your singleplayer command and...
 
+if you want an embed message, insert this script into "title" field.
+Then type "$get(desc)" in "description" field.
+
+if you want a normal message, insert this script into it, but replace "$get(title)" with "$get(desc)"
 
 */
 var title = ""
