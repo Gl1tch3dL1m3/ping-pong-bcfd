@@ -14,7 +14,7 @@ __Steps:__
 2. Insert scripts - don't forget to follow the instructions on each one!
 
 __v1.1:__
-- add singleplayer command
+- add singleplayer command (Pharse OFF)
 - insert `singleplayer.js`
 - update ping command with `ping.js`
 - update finish command with `finish.js`
