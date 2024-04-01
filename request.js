@@ -1,3 +1,4 @@
+$eval
 /*
 
 REQUEST COMMAND - READ THIS BEFORE INSERTING!
@@ -13,7 +14,6 @@ INSERT THIS SCRIPT ONLY INTO ONE OF THEM!
 
 */
 
-$eval
 var title = ""
 var desc = ""
 
