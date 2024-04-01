@@ -1,3 +1,4 @@
+$eval
 /* 
 
 ❌ REACTION EVENT - READ THIS BEFORE INSERTING!
@@ -9,8 +10,6 @@ Then type "$get(desc)" in "description" field.
 if you want a normal message, insert this script into it, but replace "$get(title)" with "$get(desc)"
 
 */
-
-$eval
 /*
 Modes:
 0 - Not playing
