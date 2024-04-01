@@ -15,8 +15,29 @@ var title = ""
 var desc = ""
 
 try {
-  if (mode$ID == 2 && turn$ID == 1 && oppo$mentionedID == $ID) {
-    var gennum = Math.random() * 15
+  if (mode$ID == 3) {
+    var gennum = Math.floor(Math.random() * 15)
+    title = "Ping!"
+
+    if (gennum != 1) {
+      desc = "🙋: Pong! 🏓"
+      var gennum2 = Math.floor(Math.random() * 15)
+      if (gennum2 != 1) {
+        desc += "\n🤖: Pong! 🏓"
+      }
+      else {
+        desc += "\n🤖: OOF! Bot missed the shot and you won. Congratulations, $name! 🏆"
+        delete mode$ID
+      }
+    }
+    else {
+      desc = "💁: OOF! You missed the shot and the bot won! 🏆"
+      delete mode$ID
+    }
+  }
+
+  else if (mode$ID == 2 && turn$ID == 1 && oppo$mentionedID == $ID) {
+    var gennum = Math.floor(Math.random() * 15)
 
     if (gennum != 1) {
     turn$ID = 0
@@ -47,11 +68,11 @@ try {
   }
 
   else {
-    title = "" + turn$ID + " " + mode$ID
+    title = "Error!"
     desc = "Please check if you are playing with anyone or if you pinged the right user. ❌"
   }
 } catch(e) {
   title = "Error!"
-  desc = "You aren't playing with anyone. ❌"
+  desc = "You aren't playing with anyone. ❌" + "\n\n" + e
 }
 $halt $get(title)
