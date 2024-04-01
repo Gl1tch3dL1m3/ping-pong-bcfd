@@ -73,6 +73,6 @@ try {
   }
 } catch(e) {
   title = "Error!"
-  desc = "You aren't playing with anyone. ❌" + "\n\n" + e
+  desc = "You aren't playing with anyone. ❌"
 }
 $halt $get(title)
