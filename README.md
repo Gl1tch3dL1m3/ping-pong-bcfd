@@ -9,6 +9,7 @@ __Steps:__
 - finish (Phrase ON)
 - ✅ (Event: Reaction Add)
 - ❌ (Event: Reaction Add)
+- help
 
 2. Insert scripts - don't forget to follow the instructions on each one!
 
