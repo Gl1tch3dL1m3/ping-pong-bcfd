@@ -15,7 +15,12 @@ var title = ""
 var desc = ""
 
 try {
-  if (oppo$mentionedID == $ID) {
+  if (mode$ID == 3) {
+    title = "Match finished!"
+    desc = "Your current match was successfully finished. ✅"
+    delete mode$ID
+  }
+  else if (oppo$mentionedID == $ID) {
     title = "Match finished!"
     desc = "Your current match was successfully finished. ✅"
 
