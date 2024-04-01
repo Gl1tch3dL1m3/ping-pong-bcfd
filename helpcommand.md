@@ -1,6 +1,6 @@
 Hello! 👋
 
-I'm a Ping Pong bot coded in Bot Commander for Discord. My source code is on my [GitHub](https://google.com). Feel free to copy use it in whatever you want!
+I'm a Ping Pong bot coded in Bot Commander for Discord. My source code is on my [GitHub](https://github.com/Gl1tch3dL1m3/ping-pong-bcfd/tree/main). Feel free to copy use it in whatever you want!
 
 **Commands:**
 `pp!help` - This message.
