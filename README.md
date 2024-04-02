@@ -3,6 +3,7 @@ Welcome to the source code! Feel free to use these scripts in any project you wa
 
 __Steps:__
 1. Create these commands:
+
    (Put **Embed Message** everywhere)
 - request (Phrase ON, Reaction: ✅)
 - request (Phrase ON, Reaction: ❌)
