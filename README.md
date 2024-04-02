@@ -20,3 +20,5 @@ __v1.1:__
 - update finish command with `finish.js`
 
 Sorry if this isn't good for you, but this is probably the maximum I can do in BCFD. :)
+
+**[Invite](https://discord.com/oauth2/authorize?client_id=1224323211076960308) | [Support server](https://discord.com/invite/tr55DGHEwN)**
