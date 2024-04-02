@@ -1,18 +1,5 @@
 $eval
-/*
-
-REQUEST COMMAND - READ THIS BEFORE INSERTING!
-Open your request command and...
-
-if you want an embed message, insert this script into "title" field.
-Then type "$get(desc)" in "description" field.
-
-if you want a normal message, insert this script into it, but replace "$get(title)" with "$get(desc)"
-
-You must have 2 request commands. One with ✅ reaction and another with ❌ (as stated in README file).
-INSERT THIS SCRIPT ONLY INTO ONE OF THEM!
-
-*/
+// Add "get(desc)" in "description" field
 
 var title = ""
 var desc = ""
