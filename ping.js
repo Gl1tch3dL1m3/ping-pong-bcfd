@@ -41,7 +41,7 @@ try {
 
     if (gennum != 1) {
     turn$ID = 0
-    var turn$mentionedID = (turn$mentionedID == null) ? 1 : turn$mentionedID += 0
+    var turn$mentionedID = 1
     var mode$mentionedID = 2
     
     title = "Ping!"
